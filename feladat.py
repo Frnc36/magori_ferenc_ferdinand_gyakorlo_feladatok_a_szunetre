@@ -7,11 +7,14 @@ import random
 def feladat1():
     szam:int = int(input("Adj meg egy számot 200 és 920 között: "))
     if szam >= 200 and szam <= 920: #zárt vagy nyitott
-            print("Hiba!")
-    else:
         while szam >= 10:
-                szam = szam // 10
+            szam = szam // 10
         print("Az első számjegy:", szam)
+    else:
+        print("Hiba!")
+    
+    
+
     
     
     """ While """    
@@ -30,7 +33,7 @@ def feladat4():
     
     if szam > 0:
         gyok = math.sqrt(szam)
-        print(gyok)
+        print(f"A {szam} gyöke:",gyok)
         
     else:
         print("Hiba! Negatív számból nem lehet négyzetgyököt vonni.")

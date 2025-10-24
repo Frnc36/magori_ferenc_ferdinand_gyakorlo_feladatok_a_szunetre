@@ -1,9 +1,10 @@
 import feladat
 
-#feladat.feladat1()
+print("1.feladat")
+feladat.feladat1()
 
-
-#feladat.feladat4()
+print("4.feladat")
+feladat.feladat4()
 
 
 # lista = feladat.feladat6_szamgeneralas()
@@ -26,16 +27,16 @@ import feladat
 # print(f"A számok átlaga: {atlag}")
 
 # max = feladat.feladat6_maximum(lista)
-# print(f"A listában a legnagyobb szám: {max}")
+# print(f"A listában a legnagyobb szám: {max}\n")
 
 
-print(f"7.feladat\nA '@'-jel a program vége")
-nevek, db = feladat.feladat7()
-#print(nevek) # ki iratni szépen az listában lévő neveket
-print(f"{db} nevet adoott meg.", nevek)
+# print(f"7.feladat\nA '@'-jel a program vége")
+# nevek, db = feladat.feladat7()
+# #print(nevek) # ki iratni szépen az listában lévő neveket
+# print(f"{db} nevet adoott meg.", nevek)
 
-abetu = feladat.feladat7_Abetus(nevek)
-print(f"{abetu} darab A-val kezdödő név van.")
+# abetu = feladat.feladat7_Abetus(nevek)
+# print(f"{abetu} darab A-val kezdödő név van.")
 
-leghosszabb = feladat.feladat7_leghosszabb(nevek)
-print("A leghosszabb név:", leghosszabb)
+# leghosszabb = feladat.feladat7_leghosszabb(nevek)
+# print("A leghosszabb név:", leghosszabb)
