@@ -119,11 +119,13 @@ def feladat6_atlag(lista):
     i = 0
     cv = 0
     osszesen=0
+    
     while cv < len(lista):
         osszesen+=lista[i]
         cv+=1
         i+=1
     atlag=osszesen//len(lista)
+    
     return atlag
 
 
@@ -137,3 +139,40 @@ def feladat6_maximum(lista):
         cv += 1
     
     return max
+
+
+def feladat7():
+    lista = []
+    db = 0
+    
+    nev = str(input("Név: "))
+    while nev != "@":
+        lista.append(nev)
+        nev = str(input("Név: "))
+        db += 1
+    # if lista == []:
+    #     print("Üres a lista")
+    
+    return lista, db
+
+def feladat7_Abetus(lista = []):
+    abetu = 0
+    i = 0
+    
+    while i < len(lista):
+        if len(lista) > 0 and lista[i][0].upper() == "A":
+            abetu += 1
+        i += 1
+            
+    return abetu
+
+def feladat7_leghosszabb(lista = []):
+    leghosszabb = lista[0] # a lista nulladik eleme a leghosszabb elsőnek
+    i = 1 # ezért 1-ről indulunk
+    
+    while i < len(lista):
+        if len(lista[i]) > len(leghosszabb):
+            leghosszabb = lista[i]
+        i += 1
+        
+    return leghosszabb
