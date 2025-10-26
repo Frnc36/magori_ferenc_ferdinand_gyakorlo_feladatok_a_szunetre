@@ -1,10 +1,10 @@
 import feladat
 
-print("1.feladat")
-feladat.feladat1()
+# print("1.feladat")
+# feladat.feladat1()
 
-print("4.feladat")
-feladat.feladat4()
+# print("4.feladat")
+# feladat.feladat4()
 
 
 # lista = feladat.feladat6_szamgeneralas()
@@ -40,3 +40,7 @@ feladat.feladat4()
 
 # leghosszabb = feladat.feladat7_leghosszabb(nevek)
 # print("A leghosszabb név:", leghosszabb)
+print("8.feladat")
+f_db, max_f_sorozat = feladat.feladat8()
+print(f"A beadott f betűk száma: {f_db}")
+print(f"A leghosszabb f - sorozat: {max_f_sorozat}")

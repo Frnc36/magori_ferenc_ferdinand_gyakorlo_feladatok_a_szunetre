@@ -179,3 +179,25 @@ def feladat7_leghosszabb(lista = []):
         i += 1
         
     return leghosszabb
+
+
+def feladat8():
+    cv = 0
+    f_db = 0
+    f_sorozat = 0
+    max_f_sorozat = 0
+    
+    while cv < 10:
+        dobas = input(f"Kérem a(z) {cv + 1}. érmedobást (f/i): ").lower()
+        if dobas == "f" or dobas == "i":
+            if dobas == "f":
+                f_db += 1
+                f_sorozat += 1
+                if f_sorozat > max_f_sorozat:
+                    max_f_sorozat = f_sorozat
+            else:
+                f_sorozat = 0
+            cv += 1
+        else:
+            print("Hibás! Vagy f vagy i!")
+    return f_db, max_f_sorozat
