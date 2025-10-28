@@ -9,8 +9,6 @@ import feladat
 print("5.feladat")
 feladat.feladat5()
 
-
-
 # lista = feladat.feladat6_szamgeneralas()
 # print(f"6.feladat listája - lista = ",lista)
 
