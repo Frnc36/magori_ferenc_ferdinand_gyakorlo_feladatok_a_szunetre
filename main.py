@@ -3,16 +3,21 @@ import feladat
 # print("1.feladat")
 # feladat.feladat1()
 
-print("2.feladat")
-feladat.feladat2(1)
 
+# print("2.feladat")
+# feladat.feladat2(1)
+
+
+feladat.feladat3("Péntek", "programozás")
 
 
 # print("4.feladat")
 # feladat.feladat4()
 
+
 # print("5.feladat")
 # feladat.feladat5()
+
 
 # lista = feladat.feladat6_szamgeneralas()
 # print(f"6.feladat listája - lista = ",lista)
@@ -48,10 +53,12 @@ feladat.feladat2(1)
 # leghosszabb = feladat.feladat7_leghosszabb(nevek)
 # print("A leghosszabb név:", leghosszabb)
 
+
 # print("8.feladat")
 # f_db, max_f_sorozat = feladat.feladat8()
 # print(f"A beadott f betűk száma: {f_db}")
 # print(f"A leghosszabb f - sorozat: {max_f_sorozat}")
+
 
 # print(f"9.feladat\nA 10-es szorzó tábla:\n{"=" * 15}")
 # feladat.feladat9()

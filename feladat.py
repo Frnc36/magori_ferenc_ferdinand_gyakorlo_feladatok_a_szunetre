@@ -42,6 +42,29 @@ def feladat2(a):
     else: # a == 0
         print("Be se jövök!")
         
+        
+        
+def feladat3(nap, ora):
+    nap = nap.lower()
+    ora = ora.lower()
+
+    if nap == "hétfő": #a
+        print(f"{nap.title()} = Márti alszik.")
+    elif nap == "kedd" and ora == "hittan": #b
+        print(f"{nap.title()} = Márti figyel.")
+    elif nap == "kedd" and (not ora == "hittan"): #b
+        print(f"{nap.title()} = Márti alszik.")
+    elif nap == "szerda" and ora == "programozás": #c
+        print(f"{nap.title()} = Márti dolgozik.")
+    elif nap == "szerda" and not(ora == "programozás"): #c
+        print(f"{nap.title()} = Nincs info.")
+    elif nap == "csütörtök": #d
+        print(f"{nap.title()} = Márti figyel.")
+    else:
+        print(f"{nap.title()} = Márti félig van jelen.")
+        
+    
+        
 def feladat4():
     szam = float(input("Adj meg egy valós számot: "))
     
@@ -191,7 +214,7 @@ def feladat7_Abetus(lista = []):
     i = 0
     
     while i < len(lista):
-        if len(lista) > 0 and lista[i][0].upper() == "A":
+        if len(lista) > 0 and lista[i].title() == "A":
             abetu += 1
         i += 1
             
