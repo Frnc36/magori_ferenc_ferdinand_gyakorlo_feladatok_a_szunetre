@@ -27,6 +27,21 @@ def feladat1():
     # print("Az első számjegy:", szam)
 
 
+def feladat2(a):
+    if a == 1:
+        print(" Még 90% on vagyunk!")
+        #print(f"{a}.óra = Még 90% on vagyunk!")
+    elif a == 2 or a == 3:
+        print("Még bírjuk (60%)")
+    elif a == 4 or a == 5 or a == 6 or a == 7:
+        print("Progit tanulunk, töltődünk! 70%")
+    elif a == 8 or a == 9:
+        print("Lassan nem bírjuk tovább! 50%")
+    elif a >= 10:
+        print("Ez már tényleg túlzás.")
+    else: # a == 0
+        print("Be se jövök!")
+        
 def feladat4():
     szam = float(input("Adj meg egy valós számot: "))
     
