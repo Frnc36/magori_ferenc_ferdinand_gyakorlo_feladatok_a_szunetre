@@ -50,17 +50,17 @@ def feladat4():
     
     
 def feladat5():
-    a = int(input(f"Téglalap A oldala: "))
-    b = int(input(f"Téglalap B oldala: "))
+    a = float(input(f"Téglalap A oldala: "))
+    b = float(input(f"Téglalap B oldala: "))
     
     while a < 0 or b < 0:
         print("Hiba: a téglalap oldalai nem pozitívak!")
-        a = int(input(f"Téglalap A oldala: "))
-        b = int(input(f"Téglalap B oldala: "))
+        a = float(input(f"Téglalap A oldala: "))
+        b = float(input(f"Téglalap B oldala: "))
     t = a * b
     k = 2*(a + b)
-    print(f"A téglalap kerülete: {k} cm")    
-    print(f"A téglalap területe: {t} cm²")    
+    print(f"A téglalap kerülete: {k:.2f} cm")    
+    print(f"A téglalap területe: {t:.2f} cm²")    
     
 
 def feladat6_szamgeneralas():
