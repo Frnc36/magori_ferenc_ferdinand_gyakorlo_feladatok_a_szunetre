@@ -6,6 +6,9 @@ import feladat
 # print("4.feladat")
 # feladat.feladat4()
 
+print("5.feladat")
+feladat.feladat5()
+
 
 # lista = feladat.feladat6_szamgeneralas()
 # print(f"6.feladat listája - lista = ",lista)
@@ -46,5 +49,5 @@ import feladat
 # print(f"A beadott f betűk száma: {f_db}")
 # print(f"A leghosszabb f - sorozat: {max_f_sorozat}")
 
-print(f"10.feladat\nA 10-es szorzó tábla:\n{"=" * 15}")
-feladat.feladat9()
+# print(f"10.feladat\nA 10-es szorzó tábla:\n{"=" * 15}")
+# feladat.feladat9()

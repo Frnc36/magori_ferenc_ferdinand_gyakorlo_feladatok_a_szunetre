@@ -13,10 +13,7 @@ def feladat1():
     else:
         print("Hiba!")
     
-    
 
-    
-    
     """ While """    
     # szam:int = int(input("Adj meg egy számot 200 és 920 között: "))
     
@@ -48,6 +45,20 @@ def feladat4():
         
     # gyok = math.sqrt(szam)
     # print(f"A {szam} gyöke: ",gyok)
+    
+    
+def feladat5():
+    a = int(input(f"Téglalap A oldala: "))
+    b = int(input(f"Téglalap B oldala: "))
+    
+    while a < 0 or b < 0:
+        print("Hiba: a téglalap oldalai nem pozitívak!")
+        a = int(input(f"Téglalap A oldala: "))
+        b = int(input(f"Téglalap B oldala: "))
+    t = a * b
+    k = 2*(a + b)
+    print(f"A téglalap kerülete: {k} cm")    
+    print(f"A téglalap területe: {t} cm²")    
     
 
 def feladat6_szamgeneralas():
