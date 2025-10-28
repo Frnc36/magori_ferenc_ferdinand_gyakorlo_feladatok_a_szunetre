@@ -201,3 +201,13 @@ def feladat8():
         else:
             print("Hibás! Vagy f vagy i!")
     return f_db, max_f_sorozat
+
+
+def feladat9():
+    cv = 0
+    
+    while cv <=10:
+        szorzat = cv * 10
+        print(f"10 x {cv:2d} = {szorzat:3d}")
+        cv += 1
+        

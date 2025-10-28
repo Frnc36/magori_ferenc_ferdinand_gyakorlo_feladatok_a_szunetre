@@ -40,7 +40,11 @@ import feladat
 
 # leghosszabb = feladat.feladat7_leghosszabb(nevek)
 # print("A leghosszabb név:", leghosszabb)
-print("8.feladat")
-f_db, max_f_sorozat = feladat.feladat8()
-print(f"A beadott f betűk száma: {f_db}")
-print(f"A leghosszabb f - sorozat: {max_f_sorozat}")
+
+# print("8.feladat")
+# f_db, max_f_sorozat = feladat.feladat8()
+# print(f"A beadott f betűk száma: {f_db}")
+# print(f"A leghosszabb f - sorozat: {max_f_sorozat}")
+
+print(f"10.feladat\nA 10-es szorzó tábla:\n{"=" * 15}")
+feladat.feladat9()
