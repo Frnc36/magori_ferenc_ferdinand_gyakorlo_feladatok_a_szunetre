@@ -262,3 +262,29 @@ def feladat9():
         print(f"10 x {cv:2d} = {szorzat:3d}")
         cv += 1
         
+        
+        
+        
+        
+        
+        
+        
+        
+def feladat_vilagkiallitas():
+    szektor = str(input("Adjon meg egy szektort A-H-ig: "))
+    
+    while szektor == ""or szektor == " " or szektor.isdigit(): # ellenőrzi, hogy csak számjegyekből áll-e a szöveg
+        print("HIBA: Adjon meg egy betűt A-H-ig! és forduljon a pénztárhoz.")
+        szektor = str(input("Adjon meg egy szektort A-H-ig: "))
+    if szektor.upper() == "A":
+        print(f"Szektor {szektor.upper()} = Nemzetközi Csarnok, World Conservation Forum 2021")
+    elif szektor.upper() == "B" or szektor == "E":
+        print(f"Szektor {szektor.upper()} = Kereskedelmi Csarnok")
+    elif szektor.upper() == "C":
+        print(f"Szektor {szektor.upper()} = Konferencia-központ Innovációs Showroom")
+    elif szektor.upper() == "D":
+        print(f"Szektor {szektor.upper()} = Hagyományos Vadászati Módok Csarnoka")
+    elif szektor.upper() == "G":
+        print(f"Szektor {szektor.upper()} = Hazai és nemzetközi Trófeakiállítás, 12. Nyílt Európai Taxiderma-bajnokság, Vadászat 21.században kiállítás")
+    elif szektor.upper() == "H":
+        print(f"Szektor {szektor.upper()} = Központi Magyar Kiállítás")

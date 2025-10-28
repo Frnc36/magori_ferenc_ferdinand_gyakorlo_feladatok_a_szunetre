@@ -8,7 +8,7 @@ import feladat
 # feladat.feladat2(1)
 
 
-feladat.feladat3("Péntek", "programozás")
+# feladat.feladat3("Péntek", "programozás")
 
 
 # print("4.feladat")
@@ -62,3 +62,7 @@ feladat.feladat3("Péntek", "programozás")
 
 # print(f"9.feladat\nA 10-es szorzó tábla:\n{"=" * 15}")
 # feladat.feladat9()
+
+print("Természettel  Vadászati és Természeti Világkiállítás.feladat")
+feladat.feladat_vilagkiallitas()
+
