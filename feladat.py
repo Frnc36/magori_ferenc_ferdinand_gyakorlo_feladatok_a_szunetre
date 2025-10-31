@@ -29,7 +29,7 @@ def feladat1():
 
 def feladat2(a):
     if a == 1:
-        print(" Még 90% on vagyunk!")
+        print("Még 90% on vagyunk!")
         #print(f"{a}.óra = Még 90% on vagyunk!")
     elif a == 2 or a == 3:
         print("Még bírjuk (60%)")
