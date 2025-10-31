@@ -63,6 +63,17 @@ import feladat
 # print(f"9.feladat\nA 10-es szorzó tábla:\n{"=" * 15}")
 # feladat.feladat9()
 
-print("Természettel  Vadászati és Természeti Világkiállítás.feladat")
-feladat.feladat_vilagkiallitas()
+
+print("10.feladat")
+feladat.feladat10(1234)
+
+print()
+print("legkisebb.feladat")
+szam = feladat.legkisebb(6, 5)
+print("A legkisebb közös többszörös:",szam)
+
+
+
+# print("Természettel  Vadászati és Természeti Világkiállítás.feladat")
+# feladat.feladat_vilagkiallitas()
 

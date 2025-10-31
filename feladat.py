@@ -263,13 +263,30 @@ def feladat9():
         cv += 1
         
         
+def feladat10(szam):
+    helyiertek = 1
+    
+    print(f"A(z) {szam} számjegyei helyiértékenként:")
+    while szam > 0:
+        szamjegy = szam % 10
+        print(f"{helyiertek}-es: {szamjegy}")
+        szam = szam // 10
+        helyiertek = helyiertek * 10
         
         
         
         
         
         
+def legkisebb(a, b):
+    szam = max(a, b)
+    
+    while szam % a != 0 or szam % b != 0:
+        szam += 1
+    
+    return szam
         
+ 
 def feladat_vilagkiallitas():
     szektor = str(input("Adjon meg egy szektort A-H-ig: "))
     
