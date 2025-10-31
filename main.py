@@ -102,6 +102,7 @@ szam = feladat.legkisebb(6, 5)
 print("A legkisebb közös többszörös:",szam)
 
 
+
 print()
 print("Természettel  Vadászati és Természeti Világkiállítás.feladat")
 feladat.feladat_vilagkiallitas()

@@ -301,6 +301,7 @@ def tokeletes_szam():
         print(f"{szam} nem tökéletes szám.")
 
 
+
 def legnagyobb(a, b):
     if a < b:
         oszto = a
