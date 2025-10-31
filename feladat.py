@@ -274,19 +274,52 @@ def feladat10(szam):
         helyiertek = helyiertek * 10
         
         
+def feladat11(szam):
+    osszeg = 0
+    eszam = szam
+    
+    while szam > 0:
+        osszeg += szam % 10
+        szam = szam // 10
+    
+    print(f"{eszam} számjegyeinek összege: {osszeg}")
         
-        
-        
+
+def feladat12():
+    szam = int(input("Kérem adjon meg egy pozitív egész számot: "))
+    osszeg = 0
+    i = 1
+    
+    while i < szam:
+        if szam % i == 0:
+            osszeg += i
+        i += 1
+    
+    if osszeg == szam:
+        print(f"{szam} tökéletes szám!")
+    else:
+        print(f"{szam} nem tökéletes szám.")
+
+
+def feladat13(a, b):
+    if a < b:
+        oszto = a
+    else:
+        oszto = b
+    while oszto > 0:
+        if a % oszto == 0 and b % oszto == 0:
+            return oszto
+        oszto -= 1
+ 
         
 def legkisebb(a, b):
     szam = max(a, b)
     
     while szam % a != 0 or szam % b != 0:
         szam += 1
-    
     return szam
         
- 
+  
 def feladat_vilagkiallitas():
     szektor = str(input("Adjon meg egy szektort A-H-ig: "))
     

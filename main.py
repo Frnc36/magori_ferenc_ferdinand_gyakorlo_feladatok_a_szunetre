@@ -63,14 +63,27 @@ import feladat
 # print(f"9.feladat\nA 10-es szorzó tábla:\n{"=" * 15}")
 # feladat.feladat9()
 
+# print()
+# print("10.feladat")
+# feladat.feladat10(1234)
 
-print("10.feladat")
-feladat.feladat10(1234)
+# print()
+# print("11.feladat")
+# feladat.feladat11(324)
+
+# print()
+# print("12.feladat")
+# feladat.feladat12()
 
 print()
-print("legkisebb.feladat")
-szam = feladat.legkisebb(6, 5)
-print("A legkisebb közös többszörös:",szam)
+print("13.feladat")
+oszto = feladat.feladat13(12, 18)
+print(f"A legnagyobb közös osztója: {oszto}")
+
+# print()
+# print("legkisebb.feladat")
+# szam = feladat.legkisebb(6, 5)
+# print("A legkisebb közös többszörös:",szam)
 
 
 
