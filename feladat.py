@@ -6,7 +6,7 @@ import random
 """ Baj-e hogy 2 érték van a returnnél?"""
 
 
-def feladat1():
+def intervallum_200_920_közt():
     szam:int = int(input("Adj meg egy számot 200 és 920 között: "))
     if szam >= 200 and szam <= 920: #zárt vagy nyitott
         while szam >= 10:
@@ -27,7 +27,7 @@ def feladat1():
     # print("Az első számjegy:", szam)
 
 
-def feladat2(a):
+def csoport1_napja(a):
     if a == 1:
         print("Még 90% on vagyunk!")
         #print(f"{a}.óra = Még 90% on vagyunk!")
@@ -44,7 +44,7 @@ def feladat2(a):
         
         
         
-def feladat3(nap, ora):
+def marti_algoritmus(nap, ora):
     nap = nap.lower()
     ora = ora.lower()
 
@@ -65,7 +65,7 @@ def feladat3(nap, ora):
         
     
         
-def feladat4():
+def valosszam_gyok():
     szam = float(input("Adj meg egy valós számot: "))
     
     if szam > 0:
@@ -87,7 +87,7 @@ def feladat4():
     # print(f"A {szam} gyöke: ",gyok)
     
     
-def feladat5():
+def teglalap_szamitas():
     a = float(input(f"Téglalap A oldala: "))
     b = float(input(f"Téglalap B oldala: "))
     
@@ -101,7 +101,7 @@ def feladat5():
     print(f"A téglalap területe: {t:.2f} cm²")    
     
 
-def feladat6_szamgeneralas():
+def veletlen13_szamgeneralas():
     lista = []
     cv = 0
     
@@ -112,7 +112,7 @@ def feladat6_szamgeneralas():
     return lista
 
 
-def feladat6_poz_neg(lista = []):
+def veletlen13_poz_neg(lista = []):
     cv = 0
     """ 0 sem pozítiv, sem negatív """
     null = 0
@@ -131,7 +131,7 @@ def feladat6_poz_neg(lista = []):
     return pozitiv, negativ
   
 
-def feladat6_osszeg(lista = []):
+def veletlen13_osszeg(lista = []):
     cv = 0 
     paros_ossz = 0
     paratlan_ossz = 0
@@ -144,7 +144,7 @@ def feladat6_osszeg(lista = []):
         cv += 1
     return paros_ossz, paratlan_ossz
 
-def feladat6_naggobb(lista):
+def veletlen13_naggobb(lista):
     cv = 0
     null = 0
     paros = 0
@@ -169,7 +169,7 @@ def feladat6_naggobb(lista):
     else:
         return "páratlan", paratlan
 
-def feladat6_atlag(lista):
+def veletlen13_atlag(lista):
     i = 0
     cv = 0
     osszesen=0
@@ -183,7 +183,7 @@ def feladat6_atlag(lista):
     return atlag
 
 
-def feladat6_maximum(lista):
+def veletlen13_maximum(lista):
     cv = 1
     max = lista[0]  # Kezdeti maximum az első elem
     
@@ -195,7 +195,7 @@ def feladat6_maximum(lista):
     return max
 
 
-def feladat7():
+def nevek_lista():
     lista = []
     db = 0
     
@@ -209,7 +209,7 @@ def feladat7():
     
     return lista, db
 
-def feladat7_Abetus(lista = []):
+def nevek_Abetus(lista = []):
     abetu = 0
     i = 0
     
@@ -220,7 +220,7 @@ def feladat7_Abetus(lista = []):
             
     return abetu
 
-def feladat7_leghosszabb(lista = []):
+def nevek_leghosszabb(lista = []):
     leghosszabb = lista[0] # a lista nulladik eleme a leghosszabb elsőnek
     i = 1 # ezért 1-ről indulunk
     
@@ -232,7 +232,7 @@ def feladat7_leghosszabb(lista = []):
     return leghosszabb
 
 
-def feladat8():
+def erme_dobas():
     cv = 0
     f_db = 0
     f_sorozat = 0
@@ -254,7 +254,7 @@ def feladat8():
     return f_db, max_f_sorozat
 
 
-def feladat9():
+def tiz_X_tiz():
     cv = 0
     
     while cv <=10:
@@ -263,7 +263,7 @@ def feladat9():
         cv += 1
         
         
-def feladat10(szam):
+def helyiertek(szam):
     helyiertek = 1
     
     print(f"A(z) {szam} számjegyei helyiértékenként:")
@@ -274,7 +274,7 @@ def feladat10(szam):
         helyiertek = helyiertek * 10
         
         
-def feladat11(szam):
+def szamjegyek_osszeg(szam):
     osszeg = 0
     eszam = szam
     
@@ -285,7 +285,7 @@ def feladat11(szam):
     print(f"{eszam} számjegyeinek összege: {osszeg}")
         
 
-def feladat12():
+def tokeletes_szam():
     szam = int(input("Kérem adjon meg egy pozitív egész számot: "))
     osszeg = 0
     i = 1
@@ -301,7 +301,7 @@ def feladat12():
         print(f"{szam} nem tökéletes szám.")
 
 
-def feladat13(a, b):
+def legnagyobb(a, b):
     if a < b:
         oszto = a
     else:
